@@ -26,7 +26,7 @@ function Get-RandomCommand {
 
 $randomCommands = @()
 
-1..4096 | ForEach-Object {
+1..4097 | ForEach-Object {
     $randomCommands += Get-RandomCommand
 }
 
